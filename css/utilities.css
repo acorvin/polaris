@@ -15,7 +15,7 @@
 body {
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: right top;
   background-size: cover;
   resize: both;

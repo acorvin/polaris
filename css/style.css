@@ -58,6 +58,12 @@ header nav a {
   height: 5rem;
   color: var(--grey);
 }
+.main-nav a {
+  font-weight: bold;
+}
+.main-nav i {
+  color: var(--primary);
+}
 .mobile-nav {
   display: none;
 }
@@ -196,6 +202,10 @@ nav li a:hover {
   margin-right: 2px;
   display: block;
 }
+.card-intro img:first-child {
+  height: 10rem;
+  object-fit: center;
+}
 .feature-scroll .card-intro a {
   display: block;
   padding: 12px 0;
@@ -207,7 +217,7 @@ nav li a:hover {
   margin: 0;
   padding: 20px;
   color: var(--light);
-  background-color: var(--grey);
+  background-color: var(--dark);
   text-transform: uppercase;
 }
 .feature-card h4:hover {
