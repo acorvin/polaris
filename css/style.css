@@ -50,6 +50,9 @@ header nav a {
 .top-nav a {
   font-size: 0.83rem;
 }
+.top-nav ul {
+  align-items: baseline;
+}
 .main-nav {
   height: 5rem;
   color: var(--grey);
@@ -283,12 +286,6 @@ nav li a:hover {
   }
   .feature-mobile {
     display: block;
-  }
-}
-@media (max-width: 58rem) {
-  .top-nav .btn {
-    font-size: 0.68rem;
-    padding: 0.3rem;
   }
 }
 @media (max-width: 74rem) {
