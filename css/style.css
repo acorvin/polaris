@@ -4,7 +4,7 @@
   --secondary: rgba(38, 115, 181, 1);
   --blue: rgba(223, 238, 251, 1);
   --grey: rgba(68, 68, 68, 1);
-  --ltgrey: rgb(100, 100, 100);
+  --ltgrey: 100, 100, 100;
   --light: rgba(255, 255, 255, 1);
   --dark: rgba(0, 0, 0, 1);
   --overlay: rgba(0, 0, 0, 0.9);
@@ -57,6 +57,7 @@ header nav a {
 .main-nav {
   height: 5rem;
   color: var(--grey);
+  border-bottom: 0.01rem solid rgba(var(--ltgrey), 0.1);
 }
 .main-nav a {
   font-weight: bold;
@@ -154,7 +155,7 @@ nav li a:hover {
 }
 .hero-content h5 {
   text-transform: uppercase;
-  color: var(--ltgrey);
+  color: rgba(var(--ltgrey), 0.6);
 }
 /* Features */
 .feature-header {
@@ -259,9 +260,6 @@ nav li a:hover {
 }
 /* Media Queries */
 @media (max-width: 48rem) {
-  body {
-    background-image: none;
-  }
   h1 {
     font-size: 2.441rem;
   }
