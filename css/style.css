@@ -10,7 +10,7 @@
   --overlay: rgba(0, 0, 0, 0.9);
 }
 .btn-primary {
-  border: 4px solid var(--grey);
+  border: 3px solid var(--grey);
   text-transform: uppercase;
 }
 .btn-primary:hover {
@@ -187,6 +187,10 @@ nav li a:hover {
   padding: 12px 0;
   color: var(--primary);
   text-transform: uppercase;
+}
+.card-intro .card-intro-details {
+  margin: 0 10px;
+  padding: 16px;
 }
 .feature-scroll .card-intro a:hover {
   color: var(--primary);
